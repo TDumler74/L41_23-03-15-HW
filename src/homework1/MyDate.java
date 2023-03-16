@@ -32,7 +32,7 @@ public class MyDate {
       return year;
    }
 
-   @Override
+
    public boolean equals(Object o) {
       if (this == o) return true;
       if (!(o instanceof MyDate) ) return false;
@@ -43,8 +43,5 @@ public class MyDate {
    //equals via overrided equals true
    //myDate1 equals myDate3 false
 
-   @Override
-   public int hashCode() {
-      return Objects.hash(day, month, year);
-   }
+
 }
