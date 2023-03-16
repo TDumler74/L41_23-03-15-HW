@@ -22,6 +22,7 @@ import homework1.MyDate;
         ///equals via == false
         //equals via overrided equals true
         //myDate1 equals myDate3 false
-
+        System.out.println("Hashcodes are equal ? : "+ (myDate1.hashCode()==myDate2.hashCode()));
+        //Hashcodes are equal ? : true
     }
 }

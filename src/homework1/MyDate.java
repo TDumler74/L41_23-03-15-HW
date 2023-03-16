@@ -42,6 +42,8 @@ public class MyDate {
    //equals via == false
    //equals via overrided equals true
    //myDate1 equals myDate3 false
-
+      public int hashCode(){
+      return Objects.hash(day,month,year);
+      }
 
 }
